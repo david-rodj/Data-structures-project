@@ -30,11 +30,37 @@ The repository is organized as follows: / El repositorio está organizado de la 
 - `ejemplo1.txt`, `ejemplo2.txt`, `ejemplo3.txt`, `ejemplo4.txt`: Text files containing sample data used for testing and demonstration purposes. / Archivos de texto que contienen datos de ejemplo utilizados para pruebas y demostraciones.
 
 
-## Compilation Guide
+## Compilation and execution guide of the project
+In this file you will find the step by step guide to compile and run the whole project, I hope it will be of great hel
 
 To compile and run the project, follow these steps:
 
 1. **Clone the Repository**: Use the following command to clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/david-rodj/Proyecto-estructuras-de-datos.git
+   git clone https://github.com/david-rodj/Data-structures-project.git
+   ```
+
+   Navigate to the project directory:
+
+   ```bash
+   cd Data-structures-project
+   ```
+
+2. **Install g++ Compiler with MinGW for Windows (You can skip this step if you already have it or you use a Unix based system)**: 
+To compile this project I recommend `g++`, so we will have to install it following the guide of [MSYS2](https://www.msys2.org/), it will install `g++` as well as `gcc` and `gdb`.
+
+
+3. **Compiling**
+To compile the project, you will open the console of your choice, type the following command replacing the parameters according to your need:
+
+```bash
+g++ [name of the file(s) to compile (.cpp and .cxx)] -o [name of the executable]
+```
+
+## Execution
+To run the project, you will type the following command in the console:
+
+```bash
+./[executable name] 
+```
