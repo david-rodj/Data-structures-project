@@ -62,7 +62,7 @@ For Unix-based systems, g++ is typically available through the package manager.
 To compile the project, open your console of choice and type the following command:
 
 ```bash
-g++ main.cpp Sistema.cpp [other source files] -o mesh_system
+g++ main.cpp *.cxx [other source files] -o mesh_system
 ```
 
 Replace `[other source files]` with any additional .cpp or .cxx files in your implementation.
