@@ -136,7 +136,7 @@ The system operates through an interactive command-line interface. The system pr
 - Saves an object to a file
 - Example: `guardar cube modified_cube.txt`
 
-#### Component 2: Closest Vertices
+#### Component 2: Closest Vertex
 
 **v_cercano px py pz nombre_objeto**
 - Finds the closest vertex of the object to the specified point
@@ -180,7 +180,7 @@ The system operates through an interactive command-line interface. The system pr
 The system calculates bounding boxes by identifying extreme points (pmin and pmax) that define a parallelepiped completely containing the object.
 
 ### Closest Vertex Search
-Uses Euclidean distance to identify vertices closest to specific points in 3D space.
+Uses Euclidean distance and Floyd-Warshall search to identify vertices closest to specific points in 3D space.
 
 ### Shortest Paths
 Implements graph algorithms to find shortest paths between vertices, considering edges as connections with weights based on Euclidean distance.
